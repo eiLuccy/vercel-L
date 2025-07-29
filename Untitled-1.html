@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elegância Masculina - Moda premium para homens. Coleções exclusivas de camisas, ternos e acessórios masculinos feitos com tecidos de luxo. Compre online com entrega para todo Brasil.">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Brand",
+      "name": "Elegância Masculina",
+      "description": "Marca brasileira de moda masculina premium",
+      "logo": "https://www.lennyniemeyer.com.br/logo.png"
+    }
+    </script>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="White Outlet">
+    <link rel="canonical" href="https://www.lennyniemeyer.com.br">
+    <meta name="keywords" content="moda masculina, ternos, moda luxo, camisas, coleção verão, roupa social">
+    <meta property="og:title" content="Lenny Niemeyer | Moda Praia de Luxo">
+    <meta property="og:description" content="Descubra nossas coleções exclusivas de moda praia e resortwear.">
+    <meta property="og:image" content="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/9529283b-6b2d-4229-bad3-df5084c38e62.png">
+    <meta property="og:url" content="https://www.lennyniemeyer.com.br">
+    <title>Elegância Masculina | Moda Masculina Premium | Coleção Verão 2024</title>
+    <link rel="preconnect" href="https://storage.googleapis.com">
+    <link rel="preload" as="image" href="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4535f602-96b1-47cf-937a-1eb9c0065736.png">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .hero {
+            background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4535f602-96b1-47cf-937a-1eb9c0065736.png');
+            background-position: center center;
+            height: 80vh;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .collection {
+            padding: 50px 0;
+        }
+        .collection img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 md:px-6 py-3 flex justify-between items-center">
+            <div class="text-xl md:text-2xl font-bold">White Outlet</div>
+            <nav class="flex items-center space-x-2 md:space-x-4">
+                <!-- Shopping Cart Button -->
+                <button onclick="toggleCart()" class="relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                    </svg>
+                    <span id="cart-count" class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center hidden">0</span>
+                </button>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Coleções</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Sobre</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="text-5xl font-bold">Coleção Verão 2024</h1>
+        <p class="mt-4">Descubra a elegância e a sofisticação da moda praia.</p>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="collection container mx-auto" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <h2 class="text-3xl font-bold text-center mb-8">Nossas Coleções</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="collection-item" data-aos="fade-up" data-aos-delay="100" itemscope itemtype="https://schema.org/Product">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ebe7aadb-61ba-4b68-9683-6a0dae5d3f34.png" alt="Coleção 1" itemprop="image">
+                <meta itemprop="brand" content="Lenny Niemeyer">
+                <meta itemprop="sku" content="LN2024-01">
+                <h3 class="text-xl font-semibold">Coleção 1</h3>
+                <button onclick="addToCart(1)" class="mt-2 bg-black text-white py-1 px-4 rounded hover:bg-gray-800 transition">Comprar</button>
+            </div>
+            <div class="collection-item transform hover:scale-105 transition duration-300 ease-in-out" data-aos="zoom-in">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/10868f49-9034-4efb-99a5-24a2af35af02.png" alt="Coleção 2">
+                <h3 class="text-xl font-semibold">Coleção 2</h3>
+            </div>
+            <div class="collection-item">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/237bb67c-97f2-4b80-bab7-1d79d9646c57.png" alt="Coleção 3">
+                <h3 class="text-xl font-semibold">Coleção 3</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-gray-100 p-8 text-center">
+        <h2 class="text-2xl font-bold">Junte-se à Nossa Comunidade</h2>
+        <p class="mt-4">Assine nossa newsletter para receber novidades e ofertas exclusivas.</p>
+        <form id="newsletter-form" class="mt-4" action="https://us21.list-manage.com/subscribe/post?u=YOUR_USER_ID&amp;id=YOUR_LIST_ID" method="post" name="mc-embedded-subscribe-form" target="_blank">
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_YOUR_USER_ID_YOUR_LIST_ID" tabindex="-1" value="">
+            </div>
+            <input type="email" name="EMAIL" placeholder="Seu e-mail" class="p-2 border border-gray-300 rounded" required>
+            <button type="submit" class="bg-black text-white p-2 rounded hover:bg-gray-800 transition">Assinar</button>
+            <div id="newsletter-response" class="mt-2 text-sm"></div>
+        </form>
+    </section>
+
+    <!-- Shopping Cart Sidebar -->
+    <div id="cart-sidebar" class="fixed top-0 right-0 w-full md:w-96 h-full bg-white shadow-lg transform translate-x-full transition-transform duration-300 z-50">
+        <div class="p-4 border-b border-gray-200 flex justify-between items-center">
+            <h3 class="text-xl font-bold">Seu Carrinho</h3>
+            <button onclick="toggleCart()" class="text-2xl">&times;</button>
+        </div>
+        <div id="cart-items" class="p-4 h-3/4 overflow-y-auto">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="p-4 border-t border-gray-200">
+            <div class="flex justify-between mb-4">
+                <span class="font-bold">Total:</span>
+                <span id="cart-total" class="font-bold">R$0,00</span>
+            </div>
+            <button class="w-full bg-black text-white py-2 rounded hover:bg-gray-800 transition">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white p-4 text-center">
+        <p>&copy; 2024 Lenny Niemeyer. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize animations
+        AOS.init({
+            duration: 800,
+            offset: 120,
+            easing: 'ease-in-out'
+        });
+
+        // Shopping cart functionality
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        
+        function saveCart() {
+            localStorage.setItem('cart', JSON.stringify(cart));
+        }
+        
+        function toggleCart() {
+            document.getElementById('cart-sidebar').classList.toggle('translate-x-full');
+        }
+
+        async function fetchProduct(productId) {
+            try {
+                const response = await fetch(`https://your-api-endpoint.com/products/${productId}`, {
+                    headers: {
+                        'Authorization': 'Bearer YOUR_API_KEY',
+                        'Content-Type': 'application/json'
+                    }
+                });
+                return await response.json();
+            } catch (error) {
+                console.error('Error fetching product:', error);
+                return null;
+            }
+        }
+
+        async function addToCart(productId) {
+            const product = await fetchProduct(productId);
+            if (!product) return;
+            const existing = cart.find(item => item.id === product.id);
+            if (existing) {
+                existing.quantity += 1;
+            } else {
+                product.quantity = 1;
+                cart.push(product);
+            }
+            saveCart();
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const cartItemsEl = document.getElementById('cart-items');
+            const cartCountEl = document.getElementById('cart-count');
+            const cartTotalEl = document.getElementById('cart-total');
+            
+            cartItemsEl.innerHTML = '';
+            let total = 0;
+            
+            cart.forEach(item => {
+                const itemEl = document.createElement('div');
+                itemEl.className = 'flex justify-between items-center mb-4';
+                itemEl.innerHTML = `
+                    <div class="flex-1">
+                        <h4 class="font-medium">${item.name}</h4>
+                        <p class="text-gray-600 text-sm">R${item.price.toFixed(2)}</p>
+                    </div>
+                    <div class="flex items-center">
+                        <button onclick="updateQuantity(${item.id}, -1)" class="px-2">-</button>
+                        <span class="px-2">${item.quantity}</span>
+                        <button onclick="updateQuantity(${item.id}, 1)" class="px-2">+</button>
+                    </div>
+                `;
+                cartItemsEl.appendChild(itemEl);
+                total += item.price * item.quantity;
+            });
+            
+            cartCountEl.textContent = cart.length;
+            cartCountEl.classList.toggle('hidden', cart.length === 0);
+            cartTotalEl.textContent = `R${total.toFixed(2)}`;
+        }
+
+        function updateQuantity(productId, amount) {
+            const item = cart.find(item => item.id === productId);
+            if (item) {
+                item.quantity += amount;
+                if (item.quantity <= 0) {
+                    cart.splice(cart.indexOf(item), 1);
+                }
+                updateCartUI();
+            }
+        }
+
+        // Newsletter form handling
+        document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.EMAIL.value;
+            const responseEl = document.getElementById('newsletter-response');
+            
+            // In a real implementation, this would submit to Mailchimp API
+            responseEl.textContent = 'Obrigado por se inscrever!';
+            responseEl.className = 'mt-2 text-sm text-green-600';
+            this.reset();
+            
+            setTimeout(() => {
+                responseEl.textContent = '';
+                responseEl.className = 'mt-2 text-sm';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
